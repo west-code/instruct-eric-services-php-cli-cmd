@@ -6,5 +6,5 @@
 3. Enter "cd /downloads/runservices"  ======> The "downloads" and "runservives" folder are example folders
 4. Enter "php services.php" and watch the cli output the results from the csv file
 
-PS: Unit test couldn't be conducted since no class or methods were created in the php command line interface so there weren't
-any time and memory taken into consideration on PHPUnit"
+PS: Unit test couldn't be conducted since no class or methods were created in the php command line interface so there was not
+any time and memory taken into consideration on PHPUnit. Also stated not to include binaries or vendor directories
