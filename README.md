@@ -6,5 +6,5 @@
 3. Enter "cd /downloads/runservices"  ======> The "downloads" and "runservives" folder are example folders
 4. Enter "php services.php services.csv" and watch the cli output the results from the csv file
 
-PS: Unit test couldn't be conducted since no class or methods were created in the php interface so there was not
-any time and memory taken into consideration on PHPUnit. Also stated not to include binaries or vendor directories
+PS: Unit test is written in the servicesunittest.php file.
+    PHPUnit needs to be installed and configured on the machine for the code to run as usual. Run the test by executing the PHPUnit command in the directory containing both services.php and servicesunittest.php file
