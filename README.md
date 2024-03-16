@@ -4,7 +4,7 @@
 1. Put the services.php file and services.csv file in the same folder in your PC. For example Downloads folder
 2. Go to cli command terminal and change directory into the folder where the files are
 3. Enter "cd /downloads/runservices"  ======> The "downloads" and "runservives" folder are example folders
-4. Enter "php services.php" and watch the cli output the results from the csv file
+4. Enter "php services.php services.csv" and watch the cli output the results from the csv file
 
 PS: Unit test couldn't be conducted since no class or methods were created in the php interface so there was not
 any time and memory taken into consideration on PHPUnit. Also stated not to include binaries or vendor directories
