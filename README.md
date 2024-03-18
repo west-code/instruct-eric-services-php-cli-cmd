@@ -5,10 +5,7 @@ Put the services.php file and services.csv file in the same folder in your PC. F
 Go to cli command terminal and change directory into the folder where the files are
 Enter "cd runservices"  ======> The runservives" folder is an example folder
 
-1. Enter "php services.php" and hit Enter. Watch the cli output the results from the csv file for the first question
-
-2. Enter "php services2.php" and hit Enter. Watch the CLI ouput for the second question displaying all services from each country
-
+1. Enter "php services.php services.csv" and hit Enter. Watch the cli output the results from the csv file for the first and second question
 
 PS: Unit test is written in the servicesunittest.php file.
     PHPUnit needs to be installed and configured on the machine for the code to run as usual. Run the test by executing the PHPUnit command in the directory containing both services.php and servicesunittest.php file
